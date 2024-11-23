@@ -1,4 +1,4 @@
-resource "aws_instance" "web" {
+resource "aws_instance" "myec2" {
   ami           = var.amiid
   instance_type = var.instance_type
 
